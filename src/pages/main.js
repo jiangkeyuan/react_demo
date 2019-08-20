@@ -1,15 +1,11 @@
-import React,{useEffect} from 'react';
+import React from 'react';
 import Headers from "../component/header/header";
 import MainTitle from '../component/mainTitle/index';
-const Mine = (props)=>{
-  useEffect(()=>{
-    console.log(props.history)
-  },[props.history])
+export const Mine = (props)=>{
   return (
     <div>
       <Headers history = {props.history}></Headers>
-      <MainTitle></MainTitle>
+      <MainTitle value={props.history}></MainTitle>
     </div>
   )
 }
-export default Mine;

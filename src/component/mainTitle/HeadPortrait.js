@@ -1,8 +1,7 @@
 import React from 'react';
 import './headerPortrait.scss';
-import history from '../../store/history';
 const showInformation = ()=>{
-  console.log(history);
+  console.log(123);
 }
 const HeadPortrait = ()=>{
   return (

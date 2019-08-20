@@ -2,7 +2,7 @@
 import { observable } from "mobx";
 class TodoList {
   // 利用
- @observable historys = {}; 
+ @observable history = {}; 
 }
-​
+ 
 export default new TodoList();
