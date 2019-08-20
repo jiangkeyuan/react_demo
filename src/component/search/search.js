@@ -9,15 +9,18 @@ const gotoBack = (history)=>{
 }
 const searchTitle = (history)=>{
   return (
-    <div className = 'search'>
-      <div className='searchTitle'>
-        <Icon type="search" className = 'searchIcon'/>
-        <Input placeholder="Basic usage" onChange={(e)=>searchValue(e)} className='searchInput'/>
-      </div>
-      <div className = 'gotoBack' onClick={()=>{gotoBack(history)}}>
-        取消
+    <div className='content'>
+      <div className = 'search'>
+        <div className='searchTitle'>
+          <Icon type="search" className = 'searchIcon'/>
+          <Input placeholder="Basic usage" onChange={(e)=>searchValue(e)} className='searchInput'/>
+        </div>
+        <div className = 'gotoBack' onClick={()=>{gotoBack(history)}}>
+          取消
+        </div>
       </div>
     </div>
+    
   )
 }
 export default searchTitle;
