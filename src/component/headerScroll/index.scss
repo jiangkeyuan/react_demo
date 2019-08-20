@@ -1,0 +1,106 @@
+.title{
+  display: flex;
+  flex-direction: row;
+  width:7.5rem;
+}
+.swiper-container {
+  width:6.75rem;
+  height:0.5rem;
+  padding:0.1rem 0;
+  color:#757575;
+  background: #fff;
+  position: fixed;
+}
+.swiper-slide{
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  align-items: center;
+}  
+.titleName{
+  width:25%;
+  text-align: center;
+  font-size:0.256rem;
+}
+.bottom{
+  width:0.6rem;
+  margin: 0 auto;
+  border-bottom:.03533rem solid #fb7299;
+  color:#fb7299 !important;
+}
+.icon-title{
+  width:10%;
+  height:0.5rem;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size:0.3rem;
+  color:#757575;
+}
+.titleSwiper{
+  width:7.5rem;
+  height:2rem;
+  position: absolute;
+  z-index:199;
+  background: #ffffff;
+  top:-2rem;
+}
+.showAnimation{
+  animation: show .5s;
+  top:1rem;
+}
+.hiddenAnimation{
+  animation: hidden .5s;
+  top:-2rem;
+}
+.hiddenClassSwiper{
+  opacity: 0;
+}
+.titleSwiperName{
+  display: flex;
+  z-index:99998;
+  flex-direction: row;
+  flex:1;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  padding:0.2rem 0;
+}
+.titleNameHeader{
+  width:1.25rem;
+  height:0.5rem;
+  padding:0.05rem 0;
+  color:#757575;
+  font-size:0.3rem;
+  text-align: center;
+}
+.hiddenAnimation{
+  width:7.5rem;
+  text-align: center;
+  font-size:0.3rem;
+  color:#757575;
+}
+.swiperFixed{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed;
+  background: #fff;
+  width:7.5rem;
+  z-index: 110;
+}
+.swiperPosition{
+  margin-top:0.5rem;
+}
+@keyframes show
+{
+  from {top:-2rem}
+  to {top:1rem;}
+}
+@keyframes hidden
+{
+  from {top:1rem;}
+  to {top:-2rem;}
+}

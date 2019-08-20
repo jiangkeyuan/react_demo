@@ -1,0 +1,34 @@
+.content{
+  padding:0.3rem 0.25rem;
+  width:7rem;
+}
+.contentTitle{
+  height:0.6rem;
+  width:3rem;
+  text-align: left;
+  overflow: hidden;
+}
+.contentRow{
+  width:50%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.forContent{
+  width:7rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content:flex-start;
+}
+.contentImg{
+  width:3rem;
+  height:2.5rem;
+  margin-bottom: 0.2rem;
+}
+.contentImg img{
+  width:100%;
+  height: 100%;
+  background-repeat: no-repeat;
+}
